@@ -1,0 +1,155 @@
+body {
+  background-image: url(../img/bg.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  max-height: 100vh;
+}
+@font-face {
+    font-family: 'for';
+    src: url('../font/7fonts/7fonts.ru_forgottenworld-webfont.eot');
+    src: url('../font/7fonts/7fonts.ru_forgottenworld-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/7fonts/7fonts.ru_forgottenworld-webfont.woff2') format('woff2'),
+         url('../font/7fonts/7fonts.ru_forgottenworld-webfont.woff') format('woff'),
+         url('../font/7fonts/7fonts.ru_forgottenworld-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.calculator {
+  font-size: 28px;
+  max-width: 650px;
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 15px 15px;
+}
+.viewer {
+  font-size: 45px;
+  color: #fff;
+  overflow: hidden;
+  padding-right: 10px;
+  width: 400px;
+  height: 120px;
+  margin-bottom: 25px;
+  text-align: right;
+  line-height: 120px;
+  text-shadow: 3px 3px 3px #fff;
+}
+
+button {
+  float: left;
+  width: 110px;
+  height: 110px;
+  margin-right: 25px;
+  margin-left: 5px;
+  border-radius: 10em;
+  margin-bottom: 25px;
+  border: none;
+    -webkit-background-size: cover;
+  background-size: cover;
+  font-size: 45px;
+  color: #fff;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-box-shadow: 5px 5px 15px 5px #fff;
+  box-shadow: 5px 5px 15px 5px #fff;
+
+}
+.num:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.ops:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+button:nth-child(1){
+  background-image: url(../img/p1.png);
+
+}
+button:nth-child(3){
+  background-image: url(../img/p2.png);
+}
+button:nth-child(4){
+  background-image: url(../img/p3.png);
+}
+button:nth-child(5){
+  background-image: url(../img/p4.png);
+}
+button:nth-child(6){
+  background-image: url(../img/p5.png);
+}
+button:nth-child(7){
+  background-image: url(../img/p6.png);
+}
+button:nth-child(8){
+  background-image: url(../img/p7.png);
+}
+button:nth-child(9){
+  background-image: url(../img/p8.png);
+}
+button:nth-child(10){
+  background-image: url(../img/p9.png);
+}
+button:nth-child(11){
+  background-image: url(../img/p10.png);
+}
+button:nth-child(12){
+  background-image: url(../img/p11.png);
+}
+button:nth-child(13){
+  background-image: url(../img/p12.png);
+}
+button:nth-child(14){
+  background-image: url(../img/p5.png);
+}
+button:nth-child(15){
+  background-image: url(../img/p6.png);
+}
+button:nth-child(16){
+  background-image: url(../img/p7.png);
+}
+button:nth-child(17){
+  background-image: url(../img/p8.png);
+}
+button:nth-child(18){
+  background-image: url(../img/p1.png);
+}
+.clear {
+  clear: both;
+}
+.reset {
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+  margin-left: -77px;
+  padding: 0.5em 1em;
+  position: absolute;
+  top: 139px;
+  right: 180px;
+  width: 150px;
+  height: 150px;
+  font-size: 25px;
+  -webkit-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+  -webkit-box-shadow: 6px 6px 15px 6px ##FEF6E7;
+  box-shadow: 6px 6px 15px 6px ##FEF6E7;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+}
+
+.reset.show {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+
+}
